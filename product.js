@@ -33,7 +33,7 @@ let listProducts = [
 ]
 localStorage.setItem("listProductsInlocal", JSON.stringify(listProducts));
 
-    let listProductCuaLocal = JSON.parse(localStorage.getItem("listProductsInlocal"));
+    let   = JSON.parse(localStorage.getItem("listProductsInlocal"));
 
 
 function renderListProducts(all) {
