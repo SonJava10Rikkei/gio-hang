@@ -1,37 +1,37 @@
-// let listProducts = [
-//     {
-//         name: "I phone 5",
-//         price: " 3000000",
-//         image: "img/anh1.jfif",
-//         id: "1",
-//     },
-//     {
-//         name: "I phone 6",
-//         price: " 2000000",
-//         image: "img/anh2.jfif",
-//         id: "2",
-//     },
-//     {
-//         name: "I phone 7",
-//         price: " 3000000",
-//         image: "img/anh3.jfif",
-//         id: "3",
-//     },
-//     {
-//         name: "I phone 8",
-//         price: " 3000000",
-//         image: "img/anh4.jfif",
-//         id: "4",
-//     },
-//     {
-//         name: "I phone 10",
-//         price: " 3000000",
-//         image: "img/anh1.jfif",
-//         id: "5",
-//     },
+let listProducts = [
+    {
+        name: "I phone 5",
+        price: " 3000000",
+        image: "img/anh1.jfif",
+        id: "1",
+    },
+    {
+        name: "I phone 6",
+        price: " 2000000",
+        image: "img/anh2.jfif",
+        id: "2",
+    },
+    {
+        name: "I phone 7",
+        price: " 3000000",
+        image: "img/anh3.jfif",
+        id: "3",
+    },
+    {
+        name: "I phone 8",
+        price: " 3000000",
+        image: "img/anh4.jfif",
+        id: "4",
+    },
+    {
+        name: "I phone 10",
+        price: " 3000000",
+        image: "img/anh1.jfif",
+        id: "5",
+    },
 
-// ]
-// localStorage.setItem("listProductsInlocal", JSON.stringify(listProducts));
+]
+localStorage.setItem("listProductsInlocal", JSON.stringify(listProducts));
 
     let listProductCuaLocal = JSON.parse(localStorage.getItem("listProductsInlocal"));
 
