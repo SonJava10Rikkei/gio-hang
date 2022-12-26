@@ -33,7 +33,7 @@ let listProducts = [
 ]
 localStorage.setItem("listProductsInlocal", JSON.stringify(listProducts));
 
-    let   = JSON.parse(localStorage.getItem("listProductsInlocal"));
+let = JSON.parse(localStorage.getItem("listProductsInlocal"));
 
 
 function renderListProducts(all) {
@@ -80,8 +80,6 @@ function addToCart(id) {
         }
 
     } else {
-
-
         let listProductAddCart = JSON.parse(listProductCart);
         for (let i = 0; i < listProducts.length; i++) {
             let flag = false;
@@ -107,6 +105,15 @@ function addToCart(id) {
 }
 
 
+
+
+
+
+
+
+
+
+
 function timKiemSP() {
     let listRender = [];
     let valueInput = document.getElementById("inPutSearch").value.toUpperCase();
@@ -114,7 +121,7 @@ function timKiemSP() {
     for (let i = 0; i < listProductCuaLocal.length; i++) {
         if (listProductCuaLocal[i].name.toUpperCase().indexOf(valueInput) != -1) {
             console.log('11112');
-            
+
             listRender.push(listProductCuaLocal[i])
         }
     }
@@ -132,13 +139,13 @@ function timKiemSP() {
 //             console.log('a');
 //         data += `
 //          <div class="product">
-//             <img src="${listProductCuaLocal[i].image}" alt="">    
+//             <img src="${listProductCuaLocal[i].image}" alt="">
 //             <p>${listProductCuaLocal[i].name}</p>
 //             <label for="price">${listProductCuaLocal[i].price}</label><br>
 //             <input type="number" value="1"><br>
 //             <div>
 //             <input type="number" value="1">
-//             <i onclick = addToCart(${listProductCuaLocal[i].id}) 
+//             <i onclick = addToCart(${listProductCuaLocal[i].id})
 //             class="fa-solid fa-cart-shopping" ></i>
 //             </div>
 //         </div>
